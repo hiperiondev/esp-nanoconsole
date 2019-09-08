@@ -21,7 +21,7 @@
 #include <ctype.h>
 #include <sys/errno.h>
 #include "esp_log.h"
-#include "nano_console.h"
+#include "esp-nanoconsole.h"
 #define TAG "nano_console"
 
 static SLIST_HEAD(_nc_cmd_head , _nc_cmd)
